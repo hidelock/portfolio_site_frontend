@@ -32,22 +32,16 @@ npm start
 ![alt text](https://i.ibb.co/WkBwv8s/info-page.png=1x1)
 
 ## /projects
-- Пустая страница
 ![alt text](https://i.ibb.co/Nn55yKy/projects-page.png)&nbsp;
-- С контентом
 ![alt text](https://i.ibb.co/wYVmCFY/projects-page-content.png)
 
 ## /news
-- Пустая страница
 ![alt text](https://i.ibb.co/S5VGkyY/news-page.png)&nbsp;
-- С контентом
 ![alt text](https://i.ibb.co/64vFwBL/news-page-content-png.png)
 
 ## /order
 ![alt text](https://i.ibb.co/JjXpPjd/order-page.png")
 
 ## /chat
-- Пустая страница
 ![alt text](https://i.ibb.co/2PF8XSM/chatgpt-page.png)&nbsp;
-- С контентом
 ![alt text](https://i.ibb.co/5FJGp6Q/chatgpt-page-content.png)
