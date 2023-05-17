@@ -1,0 +1,38 @@
+.custom_input{
+    width: 100%;
+    display: flex;
+    height: 64px;
+    position: relative;
+}
+.custom_input::before{
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 100%;
+    background-color: var(--color-purple);
+    margin-right: var(--margin-level-2);
+}
+.custom_input div{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.custom_input div label.required::after{
+    content: "*";
+    color: var(--color-purple);
+    margin-left: var(--margin-level-1);
+}
+.custom_input div input{
+    height: 100%;
+    margin-top: var(--margin-level-1);
+    padding: var(--margin-level-2);
+    background-color: var(--color-darked-blue);
+    outline: red;
+    border-radius: var(--border-radius);
+    border: 1px solid transparent;
+    color: var(--color-white);
+}
+.custom_input div input:focus{
+    border: 1px solid var(--color-purple);
+}

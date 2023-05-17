@@ -1,0 +1,24 @@
+.info_div{
+    width: 100%;
+    height: auto;
+    background-color: var(--color-purple-opacity);
+    border-radius: var(--border-radius);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.info_div__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info_div__icon svg{
+    width: 30px;
+    height: 30px;
+    fill: var(--color-purple);
+}
+.info_div__content{
+    color: var(--color-purple);
+    margin-left: var(--margin-level-4);
+    flex-grow: 1;
+}

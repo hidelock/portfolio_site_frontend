@@ -1,0 +1,27 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: var(--sidebar-dektop-width);
+    background-color: var(--color-dark-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: var(--box-shadow);
+}
+
+@media screen and (max-width: 800px) {
+
+    .sidebar{
+        width: 100%;
+        top: auto;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        height: var(--sidebar-mobile-height);
+        flex-direction: row;
+        z-index: 11;
+    }
+}
+

@@ -1,0 +1,20 @@
+.custom_button{
+    width: 100%;
+    padding: var(--margin-level-2) 0;
+    border-radius: var(--border-radius);
+    color: var(--color-white);
+    background-color: var(--color-purple);
+    font-size: var(--font-size-level-4);
+    align-self: flex-end;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.custom_button:disabled{
+    opacity: .5;
+    cursor: not-allowed;
+}
+.custom_button:not(:disabled):hover{
+    transition: var(--transition);
+    opacity: .9;
+}

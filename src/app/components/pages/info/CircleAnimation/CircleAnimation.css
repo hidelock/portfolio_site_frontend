@@ -1,0 +1,91 @@
+.circle-animation-card{
+    position: relative;
+    margin-top: var(--margin-level-10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 0 !important;
+}
+.circle-animation-div{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(var(--color-purple), var(--color-pink));
+    border-radius: 50%;
+    animation: circle-animate 20s ease-in-out infinite;
+}
+.circle-animation-glass{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.circle-animation-glass-layer{
+    position: relative;
+    height: 300px;
+    margin: 1px;
+    padding: var(--margin-level-5);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .15);
+    color: var(--color-dark-blue);
+    font-weight: 1000;
+    font-size: var(--font-size-level-8);
+    backdrop-filter: blur(30px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle-animation-glass-layer:nth-child(4n+1){
+    backdrop-filter: blur(10px);
+}
+.circle-animation-glass-layer:nth-child(4n+2){
+    backdrop-filter: blur(50px);
+}
+.circle-animation-glass-layer:nth-child(4n+3){
+    backdrop-filter: blur(10px);
+}
+.circle-animation-glass-layer:nth-child(4n+4){
+    backdrop-filter: blur(20px);
+}
+
+@keyframes circle-animate {
+    0%, 100%{
+        transform: translateX(-50vw);
+    }
+    50%{
+        transform: translateX(50vw);
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .circle-animation-glass-layer{
+        font-size: var(--font-size-level-6);
+    }
+}
+
+@media screen and (max-width: 900px){
+    .circle-animation-glass-layer{
+        font-size: var(--font-size-level-5);
+        padding: var(--margin-level-3);
+    }
+}
+
+@media screen and (max-width: 800px){
+    .circle-animation-glass-layer{
+        font-size: var(--font-size-level-6);
+    }
+}
+
+@media screen and (max-width: 500px){
+    .circle-animation-div{
+        width: 150px;
+        height: 150px;
+    }
+    .circle-animation-glass-layer{
+        height: 200px;
+    }
+    .circle-animation-glass-layer{
+        padding: var(--margin-level-2);
+    }
+}

@@ -1,0 +1,18 @@
+.skill__item{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--color-pink);
+    font-weight: 1000;
+    border: 2px solid var(--color-pink);
+    overflow: auto;
+}
+.skill__item:hover{
+    transition: var(--transition);
+    color: var(--color-white);
+    background-color: var(--color-pink);
+    cursor: default;
+}

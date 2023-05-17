@@ -1,0 +1,18 @@
+.news__items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: var(--margin-level-4);
+    align-content: flex-start;
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 1400px) {
+    .news__items{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 900px) {
+    .news__items{
+        grid-template-columns: 1fr;
+    }
+}

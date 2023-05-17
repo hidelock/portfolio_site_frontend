@@ -1,0 +1,15 @@
+.skills-card{
+    margin-top: var(--margin-level-10);
+    width: 100%;
+    height: auto;
+}
+.skills-card__items{
+    margin-top: var(--margin-level-6);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--margin-level-4);
+}
+

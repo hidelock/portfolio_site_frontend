@@ -1,0 +1,100 @@
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+
+    --max-content-width: 1920px;
+
+    --sidebar-dektop-width: 215px;
+    --sidebar-mobile-height: 60px; /*endpoint - 800px*/
+
+    --russian-font-family: "";
+    --english-font-family: "Ubuntu", sans-serif;
+
+    --wrapper-padding: 20px;
+    --card-padding:20px;
+
+    --border-radius: 5px;
+    --box-shadow: rgba(8, 4, 4, 0.35) 0px 5px 15px;
+    --animation: animation-opacity 0.3s ease 1;
+    --transition: all ease .3s;
+
+    --color-white: #fff;
+    --color-black: #000;
+    --color-gray: #5D6D83;
+    --color-dark-blue: #141C26;
+    --color-darked-blue: #0D141D;
+    --color-purple: #854FFF;
+    --color-purple-opacity: rgba(133, 79, 255, 0.2);
+    --color-pink: #D90855;
+    --color-yellow: #DBAE39;
+    --color-green: #57E37E;
+
+    --font-size-level-1: 0.7em;
+    --font-size-level-2: 0.8em;
+    --font-size-level-3: 1em;
+    --font-size-level-4: 1.2em;
+    --font-size-level-5: 1.5em;
+    --font-size-level-6: 1.7em;
+    --font-size-level-7: 2em;
+    --font-size-level-8: 2.5em;
+    --font-size-level-9: 3em;
+    --font-size-level-10: 3.5em;
+
+    --margin-level-1: 5px;
+    --margin-level-2: 10px;
+    --margin-level-3: 15px;
+    --margin-level-4: 20px;
+    --margin-level-5: 25px;
+    --margin-level-6: 30px;
+    --margin-level-7: 35px;
+    --margin-level-8: 40px;
+    --margin-level-9: 45px;
+    --margin-level-10: 50px;
+}
+
+body{
+    font-family: var(--english-font-family);
+    background: var(--color-darked-blue);
+    color: var(--color-gray);
+}
+
+/* Reset and base styles  */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}

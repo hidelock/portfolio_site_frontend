@@ -1,0 +1,66 @@
+.about-me-card{
+    width: 100%;
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: center;
+    align-items: center;
+    background-image: url('./assets/images/about_me_card_background.png');
+    background-size: cover;
+    background-position: center;
+}
+.about-me-card__img{
+    width: 450px;
+    height: auto;
+    margin: 0 auto;
+}
+.about-me-card__img img{
+    width: 100%;
+    height: auto;
+}
+.about-me-card__text{
+    width: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    color: var(--color-white);
+    padding: 20px;
+    border-radius: var(--border-radius);
+    line-height: 1.5;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .about-me-card{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .about-me-card__img{
+        width: 350px;
+    }
+
+}
+
+@media screen and (max-width: 440px) {
+    .about-me-card__img{
+        width: 300px;
+    }
+    .about-me-card__text{
+        font-size: var(--font-size-level-2);
+    }
+}
+
+@media screen and (max-width: 386px) {
+    .about-me-card__img{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 386px) {
+    .about-me-card__text{
+        font-size: var(--font-size-level-1);
+    }
+    .about-me-card{
+        padding: 5px !important;
+    }
+}

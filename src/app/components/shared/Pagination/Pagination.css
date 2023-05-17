@@ -1,0 +1,29 @@
+.pagination__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--margin-level-2);
+}
+
+.pagination__item{
+    padding: var(--margin-level-2) var(--margin-level-3);
+    background-color: var(--color-dark-blue);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    border: none;
+}
+.pagination__item:not(:disabled):not(.pagination__item.active):hover{
+    transition: var(--transition);
+    color: var(--color-white);
+    background-color: var(--color-purple);
+}
+.pagination__item.active{
+    cursor: default;
+    color: var(--color-white);
+    background-color: var(--color-purple);
+}
+.pagination__item:disabled{
+    cursor: not-allowed;
+    opacity: .5;
+}

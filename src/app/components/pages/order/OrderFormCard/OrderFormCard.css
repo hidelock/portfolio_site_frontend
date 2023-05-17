@@ -1,0 +1,30 @@
+.order__form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--margin-level-5);
+}
+
+.order__form__left,
+.order__form__right {
+    display: flex;
+    flex-direction: column;
+    gap: var(--margin-level-4);
+}
+
+.order__form__button {
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 1111px) {
+    .order__form {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .order__form {
+        font-size: var(--font-size-level-2);
+    }
+}
