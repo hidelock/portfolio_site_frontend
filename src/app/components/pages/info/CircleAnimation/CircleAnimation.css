@@ -29,7 +29,6 @@
     padding: var(--margin-level-5);
     box-shadow: 0 5px 25px rgba(0, 0, 0, .15);
     color: var(--color-dark-blue);
-    font-weight: 1000;
     font-size: var(--font-size-level-8);
     backdrop-filter: blur(30px);
     display: flex;

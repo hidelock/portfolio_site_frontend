@@ -6,6 +6,7 @@
     flex-direction: column;
     gap: 10px;
     position: relative;
+    
 }
 .contacts-card__title{
     font-size: var(--font-size-level-6);

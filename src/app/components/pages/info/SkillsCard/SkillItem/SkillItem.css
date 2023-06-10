@@ -6,9 +6,9 @@
     align-items: center;
     border-radius: 50%;
     color: var(--color-pink);
-    font-weight: 1000;
     border: 2px solid var(--color-pink);
     overflow: auto;
+    font-family: 'Chakra Petch', cursive;
 }
 .skill__item:hover{
     transition: var(--transition);

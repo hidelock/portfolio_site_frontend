@@ -1,17 +1,18 @@
-  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-:root{
+:root {
 
     --max-content-width: 1920px;
 
-    --sidebar-dektop-width: 215px;
-    --sidebar-mobile-height: 60px; /*endpoint - 800px*/
+    --sidebar-dektop-width: 230px;
+    --sidebar-mobile-height: 60px;
+    /*endpoint - 800px*/
 
-    --russian-font-family: "";
-    --english-font-family: "Ubuntu", sans-serif;
+    --main-font-family: 'Exo 2', sans-serif;
 
     --wrapper-padding: 20px;
-    --card-padding:20px;
+    --card-padding: 20px;
 
     --border-radius: 5px;
     --box-shadow: rgba(8, 4, 4, 0.35) 0px 5px 15px;
@@ -20,7 +21,7 @@
 
     --color-white: #fff;
     --color-black: #000;
-    --color-gray: #5D6D83;
+    --color-gray: #586A84;
     --color-dark-blue: #141C26;
     --color-darked-blue: #0D141D;
     --color-purple: #854FFF;
@@ -52,49 +53,64 @@
     --margin-level-10: 50px;
 }
 
-body{
-    font-family: var(--english-font-family);
+body {
+    font-family: var(--main-font-family);
     background: var(--color-darked-blue);
     color: var(--color-gray);
 }
 
 /* Reset and base styles  */
 * {
-	padding: 0px;
-	margin: 0px;
-	border: none;
+    padding: 0px;
+    margin: 0px;
+    border: none;
 }
 
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     font-size: inherit;
-	font-weight: inherit;
+    font-weight: inherit;
 }
-a, a:link, a:visited  {
+
+a,
+a:link,
+a:visited {
     text-decoration: none;
 }
 
-a:hover  {
+a:hover {
     text-decoration: none;
 }
 
-ul, ul li {
-	list-style: none;
+ul,
+ul li {
+    list-style: none;
 }
 
-input, textarea, button, select {
-	font-family: inherit;
+input,
+textarea,
+button,
+select {
+    font-family: inherit;
     font-size: inherit;
     color: inherit;
     background-color: transparent;
 }
 
-input:focus, input:active,
-button:focus, button:active {
+input:focus,
+input:active,
+button:focus,
+button:active {
     outline: none;
 }

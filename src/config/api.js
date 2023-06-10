@@ -1,4 +1,4 @@
-export const API_ROOT_URL = 'https://api.akella.su';
+export const API_ROOT_URL = 'http://localhost:1258';
 export const API_UPLOADS_URL = API_ROOT_URL + '/src/Uploads/';
 
 export const API_ENDPOINT_CHAT = '/chat';

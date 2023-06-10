@@ -29,7 +29,7 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    opacity: .2;
+    opacity: .5;
 }
 .container__empty p:nth-child(1){
     display: flex;

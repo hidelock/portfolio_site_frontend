@@ -6,7 +6,7 @@ const SidebarHeader = () => {
     return (
         <div className="sidebar__header">
             <img className="sidebar__logo" src={logo} alt="logo" />
-            <b className="sidebar__logo__text">akella.su</b>
+            <b className="sidebar__logo__text">#akella</b>
         </div>
     )
 }

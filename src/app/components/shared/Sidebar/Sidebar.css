@@ -9,6 +9,7 @@
     flex-direction: column;
     justify-content: space-between;
     box-shadow: var(--box-shadow);
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 @media screen and (max-width: 800px) {

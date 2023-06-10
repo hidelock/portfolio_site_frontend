@@ -5,7 +5,7 @@ export class NewsService {
 
     static single = async (id) => {
         try {
-            const res = await $user.get(API_ROOT_URL + API_ENDPOINT_NEWS + `/${id}`);
+            const res = await $user.get(API_ROOT_URL + API_ENDPOINT_NEWS + `/${id}`,);
 
             if (res.status === 200 && res.data.status && res.data.body) return res.data
             else return null
